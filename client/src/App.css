@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&family=Montserrat:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/*-------------------------- Navbar styling -------------------------- */
+
+.navbar{
+  background-color: #3E300C;
+  color: #F1E7E7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.navbar a{
+  color: inherit;
+  padding-top: 2.5rem;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  color: #84ACC2;
+}
+
+li a:hover{
+  color: #84ACC2;
+}
+
+.navbar ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  padding-right: 90px;
+}
+
+.siteTitle{
+  font-family: 'Josefin Slab', serif;
+  font-size: 50px;
+  padding-bottom: 2.5rem;
+  text-decoration: none;
+  padding-left: 90px;
+}
+
+.firstHeart{
+  color: green;
+  font-size: 10px;
+}
+
+.secondHeart{
+  color: white;
+  font-size: 10px;
+}
+
+.thirdHeart{
+  color: red;
+  font-size: 10px;
+}
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+/*-------------------------- Navbar styling -------------------------- */
+/*-------------------------- Carousel styling -------------------------- */
+.carousel{
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #84ACC2;
+}
+
+.carousel h3{
+  font-family: 'Josefin Slab', serif;
+  font-size: 50px;
+}
+
+.carousel p{
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+}
+
+.carouselText{
+  background-color: #3E300C;
+}
+
+.carouselTextDescription{
+  background-color: #3E300C;
+}
+
+/*-------------------------- Carousel styling -------------------------- */
+/*-------------------------- Menu styling -------------------------- */
+.menu{
+  background-image: url("https://wallpaperaccess.com/full/569176.png");
+  background-size: cover;
+}
+/*-------------------------- Menu styling -------------------------- */
+/*-------------------------- Purpose styling -------------------------- */
+.purposeTitle{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.purposeTitle h1{
+  font-family: 'Josefin Slab', serif;
+  font-size: 80px;
+}
+
+.ppurposetext{
+  font-family: 'Josefin Slab', serif;
+  font-size: 48px;
+  text-align: left;
+  padding-left: 340px;
+}
+
+.purpose{
+  padding-bottom: 50px;
+}
+/*-------------------------- Purpose styling -------------------------- */
+/*-------------------------- Menu styling -------------------------- */
+.menuMenu{
+  font-family: 'Josefin Slab', serif;
+  font-size: 90px;
+  padding-bottom: 50px;
+}
+
+.firstRow{
+  padding-bottom: 150px;
+}
+
+.firstRow img{
+  width: 490px;
+  height: 400px;
+}
+
+.secondRow{
+  padding-bottom: 150px;
+}
+
+.secondRow img{
+  width: 490px;
+  height: 400px;
+}
+
+.thirdRow{
+  padding-bottom: 150px;
+}
+
+.thirdRow img{
+  width: 490px;
+  height: 400px;
+}
+
+.locationTitle{
+  font-family: 'Josefin Slab', serif;
+  padding-bottom: 90px;
+  padding-top: 90px;
+  background-color: #84ACC2;
+}
+
+.locationTitle h1{
+  font-size: 90px;
+}
+
+
+/*-------------------------- Menu styling -------------------------- */
+/*-------------------------- Location styling -------------------------- */
+.location{
+  background-color: #84ACC2;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+/*-------------------------- Location styling -------------------------- */
+/*-------------------------- Instagram styling -------------------------- */
+.instagram{
+  background-image: url("https://wallpaperaccess.com/full/569176.png");
+  background-size: cover;
+}
+
+.instaTitle{
+  font-family: 'Josefin Slab', serif;
+  font-size: 90px;
+  padding-top: 140px;
+}
+
+.instagramWidget{
+  padding-left: 90px !important;
+  padding-right: 90px !important;
+  padding-top: 150px !important;
+  padding-bottom: 150px !important;
+}
+
+.instaTitle{
+  padding-bottom: 0px;
+  padding-top: 150px;
+}
+
+.instagramWidget{
+  padding-top: 50px;
+  padding-right: 90px;
+  padding-bottom: 50px;
+  padding-left: 90px;
+}
+
+.schedule{
+  font-family: 'Josefin Slab', serif;
+  font-size: 90px;
+  text-align: left;
+  padding-top: 50px;
+  padding-left: 400px;
+  padding-bottom: 200px;
+}
+
+.contact{
+  background-color: #84ACC2;
+  font-family: 'Josefin Slab', serif;
+  font-size: 90px;
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-bottom: 60px;
+  padding-right: 40px;
+  
+}
+
+/*-------------------------- Instagram styling -------------------------- */
+/*-------------------------- Contact styling -------------------------- */
+.contact{
+  background-color: #84ACC2;
+}
+
+.contactInfo{
+  color: #F1E7E7;
+}
+
+.contactNumber{
+  color: #F1E7E7;
+}
+/*-------------------------- Contact styling -------------------------- */
+/*-------------------------- Delivery styling -------------------------- */
+.delivery{
+  background-image: url("https://wallpaperaccess.com/full/569176.png");
+  background-size: cover;
+  padding: 120px;
+  padding-bottom: 200px;
+}
+
+.delivery h1{
+  font-family: 'Josefin Slab', serif;
+  font-size: 120px;
+  padding-bottom: 90px;
+}
+
+.deliveryIcons{
+  background-color: #84ACC2;
+  display: flex;
+  gap: 8rem;
+  text-align: center;
+  align-items: center;
+}
+
+.firstLogo{
+  padding-left: 80px;
+}
+
+.secondLogo img{
+  width: 180px;
+  height: 100px;
+}
+
+/*-------------------------- Delivery styling -------------------------- */
+/*-------------------------- Footer styling -------------------------- */
+
+.footer{
+  background-color: #3E300C;
+  width: 100%; 
+  overflow: hidden;
+}
+
+.footerLeft{
+  width: 600px; 
+  float: left;
+  font-family: 'Josefin Slab', serif;
+  font-size: 90px;
+  color: #F1E7E7;
+}
+
+.footerRight{
+  margin-left: 450px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 90px;
+  color: #F1E7E7;
+  padding-left: 350px;
+  padding-top: 40px;
+}
+
+.firstTextFooterLeft{
+  font-family: 'Josefin Slab', serif;
+  font-size: 45px;
+  color: #F1E7E7;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.firstTextFooterLeft span{
+  font-size: 18px;
+}
+
+.secondTextFooterLeft{
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  color: #F1E7E7;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.thirdTextFooterLeft{
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  color: #F1E7E7;
+  text-align: left;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+.footerTextRight{
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  color: #F1E7E7;  
+}
+
+.iconFooter{
+  font-family: 'Josefin Slab', serif;
+  font-size: 60px;
+  color: #F1E7E7;
+  margin-left: 50px;
+}
+
+
+
+/*-------------------------- Footer styling -------------------------- */
+/*-------------------------- Dishes Menu Screen Styling -------------------------- */
+.dishesMenuText{
+  font-family: 'Josefin Slab', serif;
+  font-size: 60px;
+  color: #F1E7E7;
+}
+
+.dishesMenu{
+  background-color: #84ACC2;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.colLeft{
+  margin-right: 60px;
+  width: 490px;
+  height: 400px;
+}
+
+.colRight{
+  margin-left: 60px;
+  width: 490px;
+  height: 400px;
+  position: relative;
+}
+
+.RowMenuImg{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.colLeft :not(img, a){
+  position: absolute;
+  top: 35%;
+  z-index: 1;
+  color:#F1E7E7;
+  text-align: center;
+  width: 100%;
+  font-family: 'Josefin Slab', serif;
+  opacity: 0;
+  transition: .3s;
+}
+
+.colLeft:hover :not(img, a){
+  opacity: 1;
+}
+
+.colLeft h3{
+  top: 55%;
+  font-family: 'Josefin Slab', serif;
+  color:#F1E7E7;
+  width: 80%;
+  padding-left: 70px;
+  align-items: center;
+}
+
+.colLeft img:hover{
+  filter: blur(5px) brightness(60%);
+}
+
+.colRight :not(img, a){
+  position: absolute;
+  top: 35%;
+  z-index: 1;
+  color:#F1E7E7;
+  text-align: center;
+  width: 100%;
+  font-family: 'Josefin Slab', serif;
+  opacity: 0;
+  transition: .3s;
+}
+
+.colRight h3{
+  top: 55%;
+  font-family: 'Josefin Slab', serif;
+  color:#F1E7E7;
+  width: 80%;
+  padding-left: 70px;
+  align-items: center;
+}
+
+.colRight img:hover{
+  filter: blur(5px) brightness(60%);
+}
+
+.colRight:hover :not(img, a){
+  opacity: 1;
+}
+
+.colCenter{
+  width: 490px;
+  height: 400px;
+}
+
+.colCenter :not(img, a){
+  position: absolute;
+  top: 35%;
+  z-index: 1;
+  color:#F1E7E7;
+  text-align: center;
+  width: 100%;
+  font-family: 'Josefin Slab', serif;
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.colCenter h3{
+  top: 55%;
+  font-family: 'Josefin Slab', serif;
+  color:#F1E7E7;
+  width: 80%;
+  padding-left: 220px;
+  align-items: center;
+}
+
+.colCenter img:hover{
+  filter: blur(5px) brightness(60%);
+}
+
+
+.colCenter img:hover{
+  filter: blur(5px) brightness(60%);
+}
+
+.colCenter:hover :not(img, a){
+  opacity: 1;
+}
+
+
+
+/*-------------------------- Dishes Menu Screen Styling -------------------------- */
+/*-------------------------- Responsive Design Screen Styling -------------------------- */
+
+@media (max-width: 500px){
+  .navbar{
+    background-color: #3E300C;
+    color: #F1E7E7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+  }
+  
+  .navbar a{
+    color: inherit;
+    padding-top: 2.5rem;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover{
+    color: #84ACC2;
+  }
+  
+  li a:hover{
+    color: #84ACC2;
+  }
+  
+  .navbar ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    padding-right: 10px;
+  }
+  
+  .siteTitle{
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;
+    padding-bottom: 2.5rem;
+    text-decoration: none;
+    padding-left: 0px;
+  }
+  
+  .firstHeart{
+    color: green;
+    font-size: 10px;
+  }
+  
+  .secondHeart{
+    color: white;
+    font-size: 10px;
+  }
+  
+  .thirdHeart{
+    color: red;
+    font-size: 10px;
+  }
+
+  .hamburger{
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .navMenu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color:#3E300C;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  navMenu li{
+    margin: 16px 0;
+  }
+  
+  .nav-menu.active{
+    left: 0;
+  }
+}
+
+/*-------------------------- Responsive Design Screen Styling -------------------------- */
