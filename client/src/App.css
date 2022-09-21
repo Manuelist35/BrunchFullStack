@@ -398,12 +398,26 @@ li a:hover{
   height: 400px;
 }
 
+.colLeft img{
+  margin-right: 60px;
+  width: 500px;
+  height: 333px;
+}
+
 .colRight{
   margin-left: 60px;
   width: 490px;
   height: 400px;
   position: relative;
 }
+
+
+.colRight img{
+  margin-right: 60px;
+  width: 500px;
+  height: 333px;
+}
+
 
 .RowMenuImg{
   padding-top: 50px;
@@ -472,6 +486,13 @@ li a:hover{
   width: 490px;
   height: 400px;
 }
+
+.colCenter img{
+  margin-right: 60px;
+  width: 500px;
+  height: 333px;
+}
+
 
 .colCenter :not(img, a){
   position: absolute;

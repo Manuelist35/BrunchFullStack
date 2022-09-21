@@ -6,7 +6,8 @@ import About from './pages/About';
 import DishesMenuScreen from './pages/DishesMenuScreen';
 import LocationScreen from './pages/LocationScreen';
 import DeliveryScreen from './pages/DeliveryScreen';
-import MenuScreen from './pages/MenuScreen'
+import MenuScreen from './pages/MenuScreen';
+import CoffeeMenuScreen from './pages/CoffeeMenuScreen'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/LocationScreen' exact element={<LocationScreen/>}/>
         <Route path='/delivery' exact element={< DeliveryScreen/>}/>
         <Route path='/MenuScreen' exact element={< MenuScreen/>}/>
+        <Route path='/CoffeeMenuScreen' exact element={< CoffeeMenuScreen/>}/>
       </Routes>
     </BrowserRouter>
     </div>

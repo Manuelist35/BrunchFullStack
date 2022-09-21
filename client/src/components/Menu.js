@@ -27,7 +27,7 @@ function Menu() {
             <h2>Brunch Menu</h2>
             <h3>The best way to start your day!</h3>
             </Col>
-            <Col className='colRight'><a href='h'><img
+            <Col className='colRight'><a href='/CoffeeMenuScreen'><img
               src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29mZmVlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
               alt="First slide"
             /></a>

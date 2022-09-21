@@ -11,46 +11,83 @@ function DishesMenu() {
                 <Container>
                     <Row className='RowMenuImg'>
                         <Col className='colLeft'><a href='h'><img
+                            src="https://simplyfreshfoodie.com/wp-content/uploads/2021/08/DSC_0546.jpg"
+                            alt="First slide"
+                        /></a>
+                        <h2>Avocado Toast</h2>
+                        <h3>light and so tasty</h3>
+                        </Col>
+                        <Col className='colRight'><a href='h'><img
+                            src="https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/01/Healthy-Eggs-Benedict-4.jpg"
+                            alt="First slide"
+                        /></a>
+                        <h2>Brunch Bennedict</h2>
+                        <h3>one of the house specials</h3>
+                        </Col>
+                    </Row>
+                    <Row className='RowMenuImg'>
+                        <Col className='colLeft'><a href='h'><img
                             src="https://images.unsplash.com/photo-1611688370466-0e415a5c922e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YnJ1bmNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                             alt="First slide"
                         /></a>
-                        <h2>Football</h2>
-                        <h3>Is a sport</h3>
+                        <h2>Custom Omelette</h2>
+                        <h3>Pick your own ingredients</h3>
                         </Col>
                         <Col className='colRight'><a href='h'><img
                             src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29mZmVlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                             alt="First slide"
-                        /></a></Col>
+                        /></a>
+                        <h2>Rib Eye Hash</h2>
+                        <h3>One of the favorites</h3>
+                        </Col>
                     </Row>
                     <Row className='RowMenuImg'>
                         <Col className='colLeft'><a href='h'><img
                             src="https://images.unsplash.com/photo-1611688370466-0e415a5c922e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YnJ1bmNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                             alt="First slide"
-                        /></a></Col>
+                        /></a>
+                        <h2>Cannuck Breakfast</h2>
+                        <h3>A classic one</h3>
+                        </Col>
                         <Col className='colRight'><a href='h'><img
                             src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29mZmVlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                             alt="First slide"
-                        /></a></Col>
+                        /></a>
+                        <h2>Cannuck Breakfast</h2>
+                        <h3>A classic one</h3>
+                        </Col>
                     </Row>
                     <Row className='RowMenuImg'>
                         <Col className='colLeft'><a href='h'><img
                             src="https://images.unsplash.com/photo-1611688370466-0e415a5c922e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YnJ1bmNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                             alt="First slide"
-                        /></a></Col>
+                        /></a>
+                        <h2>Breakfast Sandwich</h2>
+                        <h3>Soo good</h3>
+                        </Col>
                         <Col className='colRight'><a href='h'><img
                             src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29mZmVlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                             alt="First slide"
-                        /></a></Col>
+                        /></a>
+                        <h2>Vegan Sandwich</h2>
+                        <h3>One of the favorites</h3>
+                        </Col>
                     </Row>
                     <Row className='RowMenuImg'>
                         <Col className='colLeft'><a href='h'><img
                             src="https://images.unsplash.com/photo-1611688370466-0e415a5c922e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YnJ1bmNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                             alt="First slide"
-                        /></a></Col>
+                        /></a>
+                        <h2>Rib Eye Hash</h2>
+                        <h3>One of the favorites</h3>
+                        </Col>
                         <Col className='colRight'><a href='h'><img
                             src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29mZmVlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                             alt="First slide"
-                        /></a></Col>
+                        /></a>
+                        <h2>Rib Eye Hash</h2>
+                        <h3>One of the favorites</h3>
+                        </Col>
                     </Row>
                 </Container>
             </div>
