@@ -379,6 +379,19 @@ li a:hover{
 
 
 /*-------------------------- Footer styling -------------------------- */
+/*-------------------------- Coffee Menu Screen Styling -------------------------- */
+.coffeeMenuText{
+  font-family: 'Josefin Slab', serif;
+  font-size: 60px;
+  color: #F1E7E7;
+}
+
+.coffeeMenu{
+  background-color: #84ACC2;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+/*-------------------------- Coffee Menu Screen Styling -------------------------- */
 /*-------------------------- Dishes Menu Screen Styling -------------------------- */
 .dishesMenuText{
   font-family: 'Josefin Slab', serif;
