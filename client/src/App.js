@@ -7,7 +7,10 @@ import DishesMenuScreen from './pages/DishesMenuScreen';
 import LocationScreen from './pages/LocationScreen';
 import DeliveryScreen from './pages/DeliveryScreen';
 import MenuScreen from './pages/MenuScreen';
-import CoffeeMenuScreen from './pages/CoffeeMenuScreen'
+import CoffeeMenuScreen from './pages/CoffeeMenuScreen';
+import MexicanMenuScreen from './pages/MexicanMenuScreen';
+import DrinksMenuScreen from './pages/DrinksMenuScreen';
+
 
 function App() {
   return (
@@ -23,6 +26,8 @@ function App() {
         <Route path='/delivery' exact element={< DeliveryScreen/>}/>
         <Route path='/MenuScreen' exact element={< MenuScreen/>}/>
         <Route path='/CoffeeMenuScreen' exact element={< CoffeeMenuScreen/>}/>
+        <Route path='/MexicanMenuScreen' exact element={< MexicanMenuScreen/>}/>
+        <Route path='/DrinksMenuScreen' exact element={< DrinksMenuScreen/>}/>
       </Routes>
     </BrowserRouter>
     </div>

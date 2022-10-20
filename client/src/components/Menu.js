@@ -36,7 +36,7 @@ function Menu() {
             </Col>
           </Row>
           <Row className='secondRow'>
-            <Col className='colCenter'><a href='h'> <img
+            <Col className='colCenter'><a href='/MexicanMenuScreen'> <img
               src="https://images.unsplash.com/photo-1650330151304-5db3ca9b3b6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2hpbGFxdWlsZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
               alt="First slide"
             /></a>
@@ -45,7 +45,7 @@ function Menu() {
             </Col>
           </Row>
           <Row className='thirdRow'>
-            <Col className='colLeft'><a href="h"><img className='thirdRowImg'
+            <Col className='colLeft'><a href="/DrinksMenuScreen"><img className='thirdRowImg'
               src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZHJpbmtzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
               alt="First slide"
             /></a>

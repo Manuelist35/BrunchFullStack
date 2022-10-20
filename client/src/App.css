@@ -392,6 +392,39 @@ li a:hover{
   padding-bottom: 80px;
 }
 /*-------------------------- Coffee Menu Screen Styling -------------------------- */
+/*-------------------------- MExican Menu Screen Styling -------------------------- */
+.mexicanMenuText{
+  font-family: 'Josefin Slab', serif;
+  font-size: 60px;
+  color: #F1E7E7;
+}
+
+.mexicanMenu{
+  background-color: #84ACC2;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+/*-------------------------- MExican Menu Screen Styling -------------------------- */
+
+/*-------------------------- Drinks Menu Screen Styling -------------------------- */
+.DrinksMenuText{
+  font-family: 'Josefin Slab', serif;
+  font-size: 60px;
+  color: #F1E7E7;
+}
+
+.DrinksMenu{
+  background-color: #84ACC2;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.RowMenuImg{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/*-------------------------- Drinks Menu Screen Styling -------------------------- */
+
 /*-------------------------- Dishes Menu Screen Styling -------------------------- */
 .dishesMenuText{
   font-family: 'Josefin Slab', serif;
