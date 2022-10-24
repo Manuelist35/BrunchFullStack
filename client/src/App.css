@@ -413,6 +413,21 @@ li a:hover{
   color: #F1E7E7;
 }
 
+.DrinksMenuSmallText{
+  font-family: 'Josefin Slab', serif;
+  font-size: 40px;
+  color: #F1E7E7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.DrinksMenuSmallSecondText{
+  font-family: 'Josefin Slab', serif;
+  font-size: 40px;
+  color: #F1E7E7;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
 .DrinksMenu{
   background-color: #84ACC2;
   padding-top: 80px;

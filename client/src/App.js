@@ -10,6 +10,7 @@ import MenuScreen from './pages/MenuScreen';
 import CoffeeMenuScreen from './pages/CoffeeMenuScreen';
 import MexicanMenuScreen from './pages/MexicanMenuScreen';
 import DrinksMenuScreen from './pages/DrinksMenuScreen';
+import DessertsMenuScreen from './pages/DessertsMenuScreen';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path='/CoffeeMenuScreen' exact element={< CoffeeMenuScreen/>}/>
         <Route path='/MexicanMenuScreen' exact element={< MexicanMenuScreen/>}/>
         <Route path='/DrinksMenuScreen' exact element={< DrinksMenuScreen/>}/>
+        <Route path='/DessertsMenuScreen' exact element={< DessertsMenuScreen/>}/>
       </Routes>
     </BrowserRouter>
     </div>
