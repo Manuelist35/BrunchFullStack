@@ -592,6 +592,19 @@ li a:hover{
 
 
 /*-------------------------- Dishes Menu Screen Styling -------------------------- */
+/*-------------------------- Desserts Menu Screen Styling -------------------------- */
+
+.dessertsMenuText{
+  font-family: 'Josefin Slab', serif;
+  font-size: 60px;
+  color: #F1E7E7;
+}
+
+.dessertsMenu{
+  background-color: #84ACC2;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 /*-------------------------- Responsive Design Screen Styling -------------------------- */
 
 @media (max-width: 500px){

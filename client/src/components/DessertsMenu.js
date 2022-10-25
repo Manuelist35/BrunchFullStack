@@ -3,7 +3,7 @@ import React from 'react'
 function DessertsMenu() {
   return (
     <div className='dessertsMenu'>
-        <h1 className='dessertsMenuText'></h1>
+        <h1 className='dessertsMenuText'>Desserts Menu</h1>
     </div>
   )
 }
