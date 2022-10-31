@@ -605,6 +605,41 @@ li a:hover{
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
+/*-------------------------- Desserts Menu Screen Styling -------------------------- */
+
+/*-------------------------- About Us Screen Styling -------------------------- */
+.aboutUs{
+  background-color: #84ACC2;
+}
+.aboutUsText{
+  font-family: 'Josefin Slab', serif;
+  font-size: 90px;
+  padding-top: 140px;
+  padding-bottom: 40px;
+}
+
+.aboutUsh3{
+  font-family: 'Josefin Slab', serif;
+  font-size: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.aboutUsh2{
+  font-family: 'Josefin Slab', serif;
+  font-size: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+/*-------------------------- About Us Screen Styling -------------------------- */
+
+
+
 /*-------------------------- Responsive Design Screen Styling -------------------------- */
 
 @media (max-width: 500px){
